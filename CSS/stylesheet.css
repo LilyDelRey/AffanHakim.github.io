@@ -16,7 +16,6 @@
     }
 }
 .soc {
-    overflow:hidden;
     margin:0; padding:0;
     list-style:none;
 }
@@ -60,7 +59,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
-    margin-right: 5px;
+    /*margin-right: 5px;*/
     color: #ffffff;
     background-color: transparent;
 }
@@ -92,10 +91,6 @@
 
 /***** FIRST SECTION *****/
 
-.container{
-    margin: 0 auto;
-    color: white;
-}
 li{
     list-style-type: none;
     padding: 0.2vh;
@@ -104,21 +99,22 @@ li{
 .menu{
     text-align: left;
     margin-top: 4vh;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 .intro{
   margin-top: 12vh;
   text-align: center;
-  font-size: 17px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 500;
   width: 32vw;
+  margin-left: -3vw;
 }
 .intro img{
   padding-bottom: 3vh;
 }
 .icons{
-    margin-top: 2vh;
-    padding-left: 18vw;
+    margin-top: 4vh;
+    padding-left: 28vw;
 }
 
 /* ====================================
@@ -148,12 +144,7 @@ li{
   width: 100%;
 }
 
-.header-video__teaser-video {
-  width: 100%;
-  height: auto;
-}
-
-.header-video__media {
+.header-video__teaser-video, .header-video__media {
   width: 100%;
   height: auto;
 }
@@ -169,6 +160,7 @@ li{
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: white;
 }
 
 h1 {
@@ -181,8 +173,6 @@ h1 {
 .header-text {
   position: relative;
   z-index: 99;
-  margin-left: 0;
-  padding-top: 0;
 }
 /********** SECOND *********/
 .second{
@@ -190,27 +180,31 @@ h1 {
   width: 100%;
 }
 .second img{
-  height: 45vh;
+  height: 44.3vh;
 }
 .img2, .img3{
   padding-left: 1vw;
- 
 }
 
 /****** THIRD *********/
 .third .row{
-  text-align: center;
   color: black;
-
+   width:40 vw;
   }
-.third .col-md-12{
-  width: 50vw;
-}
+.third{
+    margin: 0 auto;
+  }
 .third img{
   height: 48vh;
-  float: left;
+  display: inline-block;
+  margin-top: -2vh;
 }
 .third p{
   font-family:"Times New Roman";
-  font-size: 3em !important;
+  font-size: 18px;
+  width: 30vw;
+}
+.about{
+  display: inline-block;
+  margin-top: 8vh;
 }
