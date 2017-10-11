@@ -99,9 +99,7 @@
 }
 
 /************************/
-.body{
-    background-color: black;
-}
+
 .container{
     margin: 0 auto;
     color: white;
@@ -111,14 +109,15 @@ ul{
 }
 .menu{
     text-align: left;
-    margin-top: 10vh;
+    margin-top: 4vh;
+    margin-left: 3vw;
 }
 .intro{
     text-align: center;
 }
 .icons{
     text-align: right;
-    margin-right: 6vw;
+    margin-right: 0;
 }
 
 /* ====================================
@@ -256,4 +255,37 @@ h2 {
   position: relative;
   /* to make it on top*/
   z-index: 99;
+}
+
+.second{
+  margin: -16vh -3vw;
+  width: 100%;
+}
+.second img{
+  height: 41.6vh;
+}
+.img2{
+  padding-left: 4vw;
+ 
+}
+.img3{
+  padding-left: 7.8vw;
+}
+
+/******THIRD *********/
+.third .row{
+  text-align: center;
+  color: black;
+
+  }
+.third .col-md-12{
+  width: 50vw;
+}
+.third img{
+  height: 48vh;
+  float: left;
+}
+.third p{
+  font-family:"Times New Roman";
+  font-size: 22px !important;
 }
