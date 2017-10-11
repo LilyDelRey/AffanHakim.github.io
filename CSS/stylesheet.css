@@ -107,14 +107,18 @@ li{
     margin-left: 3vw;
 }
 .intro{
-  padding-left: 12vw;
-  margin-right: 3vw;
   margin-top: 12vh;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 200;
+  width: 32vw;
+}
+.intro img{
+  padding-bottom: 3vh;
 }
 .icons{
-    display:inline-block;
     margin-top: 2vh;
-    padding-left: 17vw;
+    padding-left: 18vw;
 }
 
 /* ====================================
@@ -165,8 +169,6 @@ li{
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-size: 100%;
 }
 
 h1 {
