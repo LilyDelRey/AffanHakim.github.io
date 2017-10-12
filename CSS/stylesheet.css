@@ -163,48 +163,108 @@ body {
   color: white;
 }
 
-h1 {
-  font-size: 3em;
-  line-height: 1;
-}
-
 /********************/
 
 .header-text {
   position: relative;
   z-index: 99;
 }
+
 /********** SECOND *********/
-.second{
-  margin: 0 -3vw;
-  width: 100%;
+
+.second .col-md-4{
+  padding: 0;
 }
-.second img{
-  height: 44.3vh;
+
+.wrapper{
+width: 100%;
+padding-bottom: 52%;   /* your aspect ratio here! */
+position: relative;
 }
-.img2, .img3{
-  padding-left: 1vw;
+
+.wrapper img{
+position: absolute;
+top: 0; 
+bottom: 0; 
+left: 0; 
+right: 0;
+min-height: 100%;
 }
 
 /****** THIRD *********/
-.third .row{
-  color: black;
-   width:40 vw;
-  }
+
 .third{
-    margin: 0 auto;
-  }
+ display: table;
+ text-align: left;
+}
 .third img{
   height: 48vh;
   display: inline-block;
-  margin-top: -2vh;
-}
-.third p{
-  font-family:"Times New Roman";
-  font-size: 18px;
-  width: 30vw;
+  margin-top: 5vh;
+  margin-bottom: -0.1vh;
 }
 .about{
   display: inline-block;
-  margin-top: 8vh;
+  vertical-align: bottom;
+  padding-left: 3vw;
+}
+.third p{
+  font-family:"Times New Roman";
+  font-size: 17px;
+  color: #292424;
+  width: 27vw;
+  padding-bottom: 3vh;
+  padding-top: 2vh;
+}
+.third h1{
+  color: #396eaf;
+  font-weight: 700;
+}
+#tables{
+  display: table-cell;
+  vertical-align: middle;
+}
+#blue{
+  height: 6px;
+  margin-top: 0;
+}
+/***********************/
+.forth{
+  background-color: #1a212a;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  
+}
+input{
+  border: 2px solid white;
+  border-radius: 9px;
+  color: #8E8585;
+  margin-bottom: 2vh;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3px;
+}
+.button{
+  background-color: #396eaf;
+  color: white;
+  border: 2px solid #396eaf;
+  border-radius: 15px;
+  padding: 8px 18px;
+  font-weight: 600;
+  margin-top: 3vh;
+}
+#textarea{
+  color: #8E8585;
+  border: 2px solid white;
+  border-radius: 9px;
+  padding: 3px;
+}
+form{
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+.forth .row{
+  padding-top: 7vh;
 }
