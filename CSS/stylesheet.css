@@ -123,32 +123,7 @@ li{
   margin-top: 12vh;
   height: 60px;
 }
-@media screen and (max-width: 992px){
-  .intro{
-    vertical-align: middle;
-    font-size: 15px;
-    padding-left: 15vw;
-    width: 50vw;
-    font-weight: 600;
-    margin-top: 3vh;
-  }
-.intro img{
-  height: 30vh;
-}
-.icons{
-  padding-left: 18vw;
-}
-.icons .soc a{
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 13px;
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  border-radius: 28px;
-}
 
-}
 
 
 /****** VIDEO STYLING ******/
@@ -228,7 +203,10 @@ min-height: 100%;
 .wrapper{
   position: relative;
 }
-
+.second a{
+  text-decoration: none;
+  color: white;
+}
 .caption{
   opacity: 1;
   position: absolute;
@@ -240,6 +218,7 @@ min-height: 100%;
 }
 .wrapper img:hover + .caption { 
   z-index: 10;
+  pointer-events: none;
  }
 .content{
   padding: 15%;
@@ -315,7 +294,7 @@ hr{
   display: table-cell;
   vertical-align: middle;
   padding: 3px;
-  width: 16vw;
+  width: 19vw;
 }
 .button{
   background-color: #396eaf;
@@ -331,7 +310,7 @@ hr{
   border: 2px solid white;
   border-radius: 9px;
   padding: 3px;
-  width: 16vw;
+  width: 19vw;
 }
 form{
   margin-top: 2vh;
@@ -357,4 +336,34 @@ form{
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
+}
+
+@media screen and (max-width: 992px){
+  .intro{
+    vertical-align: middle;
+    font-size: 15px;
+    padding-left: 15vw;
+    width: 50vw;
+    font-weight: 600;
+    margin-top: 3vh;
+  }
+.intro img{
+  height: 30vh;
+}
+.icons{
+  padding-left: 18vw;
+}
+.icons .soc a{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+}
+.input, #textarea{
+  width: 30vw;
+}
+
 }
