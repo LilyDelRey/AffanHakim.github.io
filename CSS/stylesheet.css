@@ -227,8 +227,8 @@ min-height: 100%;
 }
 .wrapper{
   position: relative;
-
 }
+
 .caption{
   opacity: 1;
   position: absolute;
@@ -236,7 +236,11 @@ min-height: 100%;
   display: block;
   width: 100%;
   height: 100%;
+  z-index: -99;
 }
+.wrapper img:hover + .caption { 
+  z-index: 10;
+ }
 .content{
   padding: 15%;
   font-size: 1.3em;
@@ -262,13 +266,14 @@ hr{
   height: 48vh;
   display: inline-block;
   margin-top: 5vh;
-  margin-bottom: -0.1vh;
+  /*margin-bottom: -0.1vh;*/
   overflow: hidden;
 }
 .about{
   display: inline-block;
   vertical-align: bottom;
   padding-left: 3vw;
+  font-weight: 550;
 }
 .third p{
   font-family:"Times New Roman";
@@ -326,6 +331,7 @@ hr{
   border: 2px solid white;
   border-radius: 9px;
   padding: 3px;
+  width: 16vw;
 }
 form{
   margin-top: 2vh;
