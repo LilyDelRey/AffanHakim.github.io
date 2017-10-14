@@ -141,14 +141,24 @@ $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
   }
 });
 
-$('#scroll').hover(function(){
-$('#scroll').css({
+$('#scrollup').hover(function(){
+$('#scrollup').css({
   transform: 'scale(1.5)'
 })
 },
 function(){
-  $('#scroll').css({
+  $('#scrollup').css({
     transform: 'scale(1)'
 })
 });
+$('#scrolldown').hover(function(){
+  $('#scrolldown').css({
+    transform: 'scale(1.5)'
+  })
+  },
+  function(){
+    $('#scrolldown').css({
+      transform: 'scale(1)'
+  })
+  });
 

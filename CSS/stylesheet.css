@@ -103,11 +103,12 @@ li{
 .menu a{
   color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 .intro{
   margin-top: 12vh;
   text-align: center;
-  font-size: 18px;
+  font-size: 2vw;
   font-weight: 500;
   width: 32vw;
 
@@ -119,8 +120,8 @@ li{
     margin-top: 4vh;
     padding-left: 25vw;
 }
-#scroll{
-  margin-top: 12vh;
+#scrolldown{
+  margin-top: 6vh;
   height: 60px;
 }
 
@@ -131,6 +132,7 @@ li{
 .header-video {
   position: relative;
   overflow: hidden;
+  background-color: black;
 }
 
 .header-video iframe,
@@ -154,7 +156,9 @@ li{
 .header-video__teaser-video, .header-video__media {
   width: 100%;
   height: auto;
+  opacity: 0.5;
 }
+
 .header-text {
   position: relative;
   z-index: 99;
@@ -260,7 +264,7 @@ hr{
   color: #292424;
   width: 27vw;
   padding-bottom: 3vh;
-  padding-top: 2vh;
+  padding-top: 3vh;
 }
 .third h1{
   color: #396eaf;
@@ -284,7 +288,7 @@ hr{
   text-align: center;
   margin: 0 auto;
   display: table;
-  padding-bottom: 12vh;
+  padding-bottom: 8vh;
 }
 .input{
   border: 2px solid white;
@@ -336,6 +340,11 @@ form{
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
+}
+
+#scrollup{
+  height: 50px;
+  padding-top: 1.5vh;
 }
 
 @media screen and (max-width: 992px){
