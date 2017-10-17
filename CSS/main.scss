@@ -1,0 +1,381 @@
+---
+---
+
+/***** ICONS *****/
+@font-face {
+    font-family: 'si';
+    src: url('socicon.eot');
+    src: url('socicon.eot?#iefix') format('embedded-opentype'),
+         url('socicon.woff') format('woff'),
+         url('socicon.ttf') format('truetype'),
+         url('socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(socicon.svg) format(svg);
+    }
+}
+.soc {
+    margin:0; padding:0;
+    list-style:none;
+}
+.soc li {
+    display:block;
+    *display:inline;
+    zoom:1;
+}
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    /*margin-right: 5px;*/
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+.soc-linkedin:before {
+    content:'\e049';
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-youtube:before {
+    content:'\e051';
+}
+.soc-instagram:before {
+    content:'\e057';
+}
+.soc a{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/**************************/
+/***** FIRST SECTION *****/
+
+li{
+    list-style-type: none;
+    padding: 0.2vh;
+    font-size: 14px;
+}
+.menu{
+    text-align: left;
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.intro{
+  margin-top: 12vh;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 500;
+  width: 32vw;
+
+}
+.intro img{
+  padding-bottom: 3vh;
+}
+.icons{
+    margin-top: 4vh;
+    padding-left: 25vw;
+}
+#scrolldown{
+  margin-top: 6vh;
+  height: 60px;
+}
+
+
+
+/****** VIDEO STYLING ******/
+
+.header-video {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.header-video iframe,
+.header-video video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-video iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.header-video video {
+  width: 100%;
+}
+
+.header-video__teaser-video, .header-video__media {
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+.header-text {
+  position: relative;
+  z-index: 99;
+}
+/*************************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+/****************************/
+/****** SECOND SECTION ******/
+
+.second .col-md-4{
+  padding: 0;
+}
+
+.wrapper{
+width: 100%;
+padding-bottom: 52%;   /* your aspect ratio here! */
+position: relative;
+background-color: black;
+overflow: hidden;
+}
+
+.wrapper img{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+min-height: 100%;
+}
+
+.wrapper img:hover{
+  opacity: 0.7;
+}
+.wrapper{
+  position: relative;
+}
+.second a{
+  text-decoration: none;
+  color: white;
+}
+.caption{
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+.wrapper img:hover + .caption {
+  z-index: 10;
+  pointer-events: none;
+ }
+.content{
+  padding: 15%;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+hr{
+  width: 28px;
+  height: 18px;
+  margin-bottom: -5px;
+  display: block;
+  border: 0;
+  border-top: 5px solid #396eaf;
+}
+
+/***************************/
+/****** THIRD SECTION ******/
+
+.third{
+ display: table;
+ text-align: left;
+}
+.third img{
+  height: 48vh;
+  display: inline-block;
+  margin-top: 5vh;
+  /*margin-bottom: -0.1vh;*/
+  overflow: hidden;
+}
+.about{
+  display: inline-block;
+  vertical-align: bottom;
+  padding-left: 3vw;
+  font-weight: 550;
+}
+.third p{
+  font-family:"Times New Roman";
+  font-size: 17px;
+  color: #292424;
+  width: 27vw;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+.third h1{
+  color: #396eaf;
+  font-weight: 700;
+}
+#tables{
+  display: table-cell;
+  vertical-align: middle;
+}
+#blue{
+  height: 6px;
+  margin-top: 0;
+}
+
+/*************************/
+/***** FORTH SECTION *****/
+
+.forth{
+  background-color: #1a212a;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  padding-bottom: 8vh;
+}
+.input{
+  border: 2px solid white;
+  border-radius: 9px;
+  color: #8E8585;
+  margin-bottom: 2vh;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3px;
+  width: 19vw;
+}
+.button{
+  background-color: #396eaf;
+  color: white;
+  border: 2px solid #396eaf;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-weight: 600;
+  margin-top: 2.5vh;
+}
+#textarea{
+  color: #8E8585;
+  border: 2px solid white;
+  border-radius: 9px;
+  padding: 3px;
+  width: 19vw;
+}
+form{
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+.forth .row{
+  padding-top: 7vh;
+}
+.forth a{
+  text-decoration: none;
+  color: #396eaf;
+  padding-bottom: 2vh;
+  display: block;
+}
+.forth .soc li{
+  display: inline-block;
+}
+.forth .soc a{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
+#scrollup{
+  height: 50px;
+  padding-top: 1.5vh;
+}
+
+@media screen and (max-width: 992px){
+  .intro{
+    vertical-align: middle;
+    font-size: 15px;
+    padding-left: 15vw;
+    width: 50vw;
+    font-weight: 600;
+    margin-top: 3vh;
+  }
+.intro img{
+  height: 30vh;
+}
+.icons{
+  padding-left: 18vw;
+}
+.icons .soc a{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+}
+.input, #textarea{
+  width: 30vw;
+}
+
+}

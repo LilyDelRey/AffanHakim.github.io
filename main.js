@@ -81,53 +81,6 @@ HeaderVideo.prototype.getVideoDetails = function() {
   };
 };
 
-
- /*$("document").ready(function(){ 
-    $(".hover1").mouseenter(function(){       
-        $(this).attr('src','Images/hover1.jpg');      
-    }); 
-    $(".hover2").mouseenter(function(){       
-      $(this).attr('src','Images/hover2.jpg');      
-    }); 
-    $(".hover3").mouseenter(function(){       
-      $(this).attr('src','Images/hover3.jpg');      
-    }); 
-    $(".hover4").mouseenter(function(){       
-      $(this).attr('src','Images/hover4.jpg');      
-    }); 
-    $(".hover5").mouseenter(function(){       
-      $(this).attr('src','Images/hover5.jpg');      
-    });     
-    $(".hover6").mouseenter(function(){       
-      $(this).attr('src','Images/hover6.jpg');      
-    });   
-
-
-    $(".hover1").mouseleave(function(){       
-        $(this).attr('src','Images/1.jpg');      
-    }); 
-
-    $(".hover2").mouseleave(function(){       
-        $(this).attr('src','Images/2.jpg');      
-    }); 
-
-    $(".hover3").mouseleave(function(){       
-       $(this).attr('src','Images/3.jpg');      
-    }); 
-
-    $(".hover4").mouseleave(function(){       
-       $(this).attr('src','Images/4.jpg');      
-    }); 
-
-    $(".hover5").mouseleave(function(){       
-       $(this).attr('src','Images/5.jpg');      
-    }); 
-
-    $(".hover6").mouseleave(function(){       
-       $(this).attr('src','Images/6.jpg');      
-    }); 
-});
-*/
 $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     var target = $(this.hash);
@@ -161,4 +114,3 @@ $('#scrolldown').hover(function(){
       transform: 'scale(1)'
   })
   });
-

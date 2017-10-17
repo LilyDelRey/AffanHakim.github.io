@@ -1,0 +1,12 @@
+# Site settings
+title:  Affan Hakim
+
+collections:
+  - videos
+
+# Build settings
+# Sass
+sass:
+    style: compressed
+markdown: kramdown
+permalink: pretty
