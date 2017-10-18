@@ -44,15 +44,20 @@
 <div class="container-fluid second">
   <div class="row" id="portofolio">
 
-    <!-- loop over all the videos --> {% assign sorted = (site.videos | sort: 'date') | reverse %} {% for video in sorted %}<div class="col-md-4 col-sm-6">
-      <span style="cursor:pointer;" class="js-modal-btn" data-video-id="{{video.video_id}}"> <div class="wrapper">
-          <img class="img-responsive" src="%7B%7B%20video.image%20%7D%7D">
-          <div class="caption">
-            <div class="content">
-              <hr>{{ video.title }}</div>
-          </div>
-        </div> </span>
-    </div>{% endfor %}</div>
+    <!-- loop over all the videos -->
+    {% assign sorted = (site.videos | sort: 'date') | reverse %}
+    {% for video in sorted %}
+      <div class="col-md-4 col-sm-6">
+        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="{{ video.video_id }}"> <div class="wrapper">
+            <img class="img-responsive" src="{{ video.image }}">
+            <div class="caption">
+              <div class="content">
+                <hr>{{ video.title }}</div>
+            </div>
+          </div> </span>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <div class="container-fluid third" id="about">
