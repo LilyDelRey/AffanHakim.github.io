@@ -1,4 +1,6 @@
 ---
 title: The Paperbag | Short Film Trailer
-date: 2017-10-18 00:00:00 +0000
+date: 2016-05-11 20:59:08 +0300
+image: https://i.vimeocdn.com/video/570341485_1280x720.jpg
+video_id: 166215631
 ---
