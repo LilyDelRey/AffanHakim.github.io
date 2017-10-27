@@ -79,7 +79,7 @@
       
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="watch?v=QTAz0Gk30Q4">
+        <span style="cursor:pointer;" class="js-modal-btn-youtube" data-video-id="QTAz0Gk30Q4">
           <div class="wrapper">
             <img class="img-responsive" src="https://img.youtube.com/vi/QTAz0Gk30Q4/maxresdefault.jpg">
             <div class="caption">
@@ -91,7 +91,7 @@
       </div>
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="165126627">
+        <span style="cursor:pointer;" class="js-modal-btn-vimeo" data-video-id="165126627">
           <div class="wrapper">
             <img class="img-responsive" src="https://i.vimeocdn.com/video/568904077_1280x720.jpg">
             <div class="caption">
@@ -103,7 +103,7 @@
       </div>
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="172014369">
+        <span style="cursor:pointer;" class="js-modal-btn-vimeo" data-video-id="172014369">
           <div class="wrapper">
             <img class="img-responsive" src="https://i.vimeocdn.com/video/577610322_1280x720.jpg">
             <div class="caption">
@@ -115,7 +115,7 @@
       </div>
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="166223056">
+        <span style="cursor:pointer;" class="js-modal-btn-vimeo" data-video-id="166223056">
           <div class="wrapper">
             <img class="img-responsive" src="https://i.vimeocdn.com/video/570254849_1280x720.jpg">
             <div class="caption">
@@ -127,7 +127,7 @@
       </div>
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="166154903">
+        <span style="cursor:pointer;" class="js-modal-btn-vimeo" data-video-id="166154903">
           <div class="wrapper">
             <img class="img-responsive" src="https://i.vimeocdn.com/video/570170701_1280x720.jpg">
             <div class="caption">
@@ -139,7 +139,7 @@
       </div>
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="165338718">
+        <span style="cursor:pointer;" class="js-modal-btn-vimeo" data-video-id="165338718">
           <div class="wrapper">
             <img class="img-responsive" src="https://i.vimeocdn.com/video/569174242_1280x720.jpg">
             <div class="caption">
@@ -151,7 +151,7 @@
       </div>
       
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="144311143">
+        <span style="cursor:pointer;" class="js-modal-btn-vimeo" data-video-id="144311143">
           <div class="wrapper">
             <img class="img-responsive" src="https://i.vimeocdn.com/video/542120538_1280x720.jpg">
             <div class="caption">
@@ -223,8 +223,9 @@
           playTrigger: '.header-video__play-trigger',
           closeTrigger: '.header-video__close-trigger'
         });
-      });
-      $(".js-modal-btn").modalVideo({channel:'vimeo'});
+      });   
+      $(".js-modal-btn-youtube").modalVideo();
+      $(".js-modal-btn-vimeo").modalVideo({ channel: 'vimeo' });
     });
   </script>
 </body>

@@ -83,7 +83,7 @@
       {% assign sorted = (site.videos | sort: 'date') | reverse %}
       {% for video in sorted %}
       <div class="col-md-4 col-sm-6">
-        <span style="cursor:pointer;" class="js-modal-btn" data-video-id="{{video.video_id}}">
+        <span style="cursor:pointer;" class="js-modal-btn-{{video.source}}" data-video-id="{{video.video_id}}">
           <div class="wrapper">
             <img class="img-responsive" src="{{ video.image }}">
             <div class="caption">
@@ -155,8 +155,9 @@
           playTrigger: '.header-video__play-trigger',
           closeTrigger: '.header-video__close-trigger'
         });
-      });
-      $(".js-modal-btn").modalVideo({channel:'vimeo'});
+      });   
+      $(".js-modal-btn-youtube").modalVideo();
+      $(".js-modal-btn-vimeo").modalVideo({ channel: 'vimeo' });
     });
   </script>
 </body>
